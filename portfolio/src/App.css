@@ -1,0 +1,30 @@
+.App {
+  background-color: #1e1e1e;
+  width: 100%;
+  height: auto;
+}
+
+.progress-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #7eff8b;
+  transform-origin: 0%;
+  z-index: 1;
+}
+
+::-webkit-scrollbar {
+  width: 3px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7eff8b; /* color of the thumb */
+  border-radius: 10px; /* rounded corners for the thumb */
+}
+
+/* This targets the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #292929; /* color of the track */
+}

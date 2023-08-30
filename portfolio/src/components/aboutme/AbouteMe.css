@@ -1,0 +1,153 @@
+.aboutme {
+  width: 100%;
+  height: 100vh;
+  background-color: #212121;
+}
+
+.inner_about {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.about_content {
+  border-radius: 5px;
+  height: 70vh;
+  width: 45%;
+  margin: 20px;
+}
+
+.title_about {
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  width: 35%;
+  margin-bottom: 15px;
+  border-bottom: 2px solid#7EFF8B;
+}
+
+.gradpic img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 50%;
+  border: 3px solid #7eff8b;
+}
+
+.introduction {
+  padding: 30px 35px 10px 35px;
+  margin-left: 20px;
+}
+
+.info {
+  margin-top: 7px;
+  font-weight: lighter;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.title_tech p {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 10px 0px 0px 56px;
+  color: #7eff8b;
+}
+
+.techstacks {
+  padding: 20px 20px 10px 50px;
+  display: flex;
+  height: 10vh;
+}
+.html img,
+.css img,
+.javascript img,
+.node_js img,
+.react img,
+.git img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .aboutme {
+    width: 100%;
+    height: 80vh;
+    background-color: #212121;
+  }
+
+  .inner_about {
+    width: 100%;
+    height: 60vh;
+    display: block;
+    padding-top: 70px;
+  }
+
+  .gradpic img {
+    width: 50%;
+    height: 24vh;
+    border-radius: 50%;
+    border: 3px solid #7eff8b;
+  }
+
+  .gradpic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .about_content {
+    height: 50vh;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .introduction {
+    padding: 15px;
+    margin-left: 0px;
+  }
+
+  .title_about {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid#7EFF8B;
+  }
+
+  .info {
+    font-weight: lighter;
+    font-size: 0.9em;
+  }
+
+  .title_tech p {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 15px;
+    color: #7eff8b;
+  }
+
+  .techstacks {
+    padding: 15px 20px 10px 15px;
+    display: flex;
+    height: 10vh;
+  }
+
+  .html img,
+  .css img,
+  .javascript img,
+  .node_js img,
+  .react img,
+  .git img {
+    width: 85%;
+    height: 60%;
+  }
+}
