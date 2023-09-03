@@ -72,24 +72,18 @@ p {
   }
   .inner {
     padding: 0px;
-    width: 74%;
+    width: 83%;
     display: block;
-    & a {
-      width: 80%;
-    }
   }
   .name {
     font-size: 1.2em;
     font-weight: 370;
     margin: 0px;
-    width: 80%;
   }
 
   .title {
     font-size: 3em;
     font-weight: 450;
-    overflow-wrap: break-word;
-    width: 80%;
   }
 
   .quote {
@@ -97,6 +91,8 @@ p {
     font-weight: lighter;
     padding-left: 5px;
     padding-top: 10px;
+    text-align: center;
+    width: 67%;
   }
 
   .animation {
@@ -114,5 +110,12 @@ p {
     margin-bottom: 20px;
     cursor: pointer;
     align-items: center;
+  }
+
+  .downloadbtn {
+    display: flex;
+
+    justify-content: center;
+    width: 67%;
   }
 }

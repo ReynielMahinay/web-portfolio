@@ -28,7 +28,7 @@ export default function HomePage() {
         <p className="name">Hi, I'm Reyniel Mahinay</p>
         <p className="title">Front-end Developer</p>
         <p className="quote">I code with passion</p>
-        <a href={resume} download="Mahinay, Reyniel T">
+        <a href={resume} download="Mahinay, Reyniel T" className="downloadbtn">
           <button className="resume">
             Resume
             <svg
