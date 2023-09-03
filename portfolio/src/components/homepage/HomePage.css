@@ -65,25 +65,31 @@ p {
 
 @media (min-width: 321px) and (max-width: 480px) {
   .homepage {
-    width: 100%;
+    width: 95%;
     height: 40vh;
     padding: 0px;
     margin: 0px;
   }
   .inner {
     padding: 0px;
-    width: 100%;
+    width: 74%;
+    display: block;
+    & a {
+      width: 80%;
+    }
   }
   .name {
     font-size: 1.2em;
     font-weight: 370;
     margin: 0px;
+    width: 80%;
   }
 
   .title {
     font-size: 3em;
     font-weight: 450;
     overflow-wrap: break-word;
+    width: 80%;
   }
 
   .quote {
@@ -95,5 +101,18 @@ p {
 
   .animation {
     display: none;
+  }
+  .resume {
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    background-color: #7eff8b;
+    border: 0px;
+    padding: 5px 15px 7px 15px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    cursor: pointer;
+    align-items: center;
   }
 }

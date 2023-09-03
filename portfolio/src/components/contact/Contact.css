@@ -119,7 +119,7 @@
   }
   .contact_intro {
     padding: 15px;
-    width: 100%;
+    width: 90%;
     font-weight: lighter;
     font-size: 0.9em;
     & .go {
