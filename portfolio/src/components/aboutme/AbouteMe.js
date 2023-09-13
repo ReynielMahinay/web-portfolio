@@ -6,6 +6,7 @@ import JS from "../../assets/js.png";
 import NODEJS from "../../assets/node_js.png";
 import REACT from "../../assets/react.png";
 import GIT from "../../assets/git.png";
+import tailwind from "../../assets/tailwind.png";
 
 import { motion } from "framer-motion";
 
@@ -75,6 +76,9 @@ export default function AboutMe() {
             </div>
             <div className="git">
               <img src={GIT} alt="Git" />
+            </div>
+            <div className="git">
+              <img src={tailwind} alt="Git" />
             </div>
           </div>
         </div>
