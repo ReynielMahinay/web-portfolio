@@ -1,5 +1,10 @@
 import "./MyProjects.css";
 import { motion } from "framer-motion";
+import code_saga from "../../assets/code-saga.png";
+import code_saga_web from "../../assets/code-saga-web.png";
+import git from "../../assets/git.png";
+import download from "../../assets/download.png";
+import webpage from "../../assets/webpage.png";
 
 export default function MyProjects() {
   const createFadeInAnimation = (delay) => ({
@@ -44,7 +49,41 @@ export default function MyProjects() {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            <p>Upcoming!</p>
+            <div>
+              <div>
+                <img src={code_saga} alt="code saga" className="code_saga" />
+              </div>
+              <div className="saga-title">
+                <p>
+                  <span className="game_title"> Code Saga </span> <br /> 2D
+                  rpg/quiz game about c++ fundamentals
+                </p>
+              </div>
+            </div>
+
+            <div className="code_saga_link">
+              <div className="logo_div">
+                <a
+                  href="https://github.com/ReynielMahinay/code-saga"
+                  target="_blank"
+                  className="logo_git"
+                >
+                  <img src={git} alt="git" className="git_logo" />
+                  source code
+                </a>
+              </div>
+
+              <div className="logo_div">
+                <a
+                  href="https://www.mediafire.com/file/e7b860cdopus5nd/Game.rar/file"
+                  target="_blank"
+                  className="logo_git"
+                >
+                  <img src={download} alt="download" className="git_logo" />
+                  download
+                </a>
+              </div>
+            </div>
           </motion.div>
           <motion.div
             className="project1"
@@ -53,7 +92,45 @@ export default function MyProjects() {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            <p>Upcoming!</p>
+            <div>
+              <div>
+                <img
+                  src={code_saga_web}
+                  alt="code saga"
+                  className="code_saga_web"
+                />
+              </div>
+              <div className="saga-title">
+                <p>
+                  <span className="game_title"> Code Saga Website </span> <br />{" "}
+                  Website for out project
+                </p>
+              </div>
+            </div>
+
+            <div className="code_saga_link">
+              <div className="logo_div">
+                <a
+                  href="https://github.com/ReynielMahinay/code-saga-web"
+                  target="_blank"
+                  className="logo_git"
+                >
+                  <img src={git} alt="git" className="git_logo" />
+                  source code
+                </a>
+              </div>
+
+              <div className="logo_div">
+                <a
+                  href="https://code-saga.vercel.app/"
+                  target="_blank"
+                  className="logo_git"
+                >
+                  <img src={webpage} alt="download" className="git_logo" />
+                  visit
+                </a>
+              </div>
+            </div>
           </motion.div>
           <motion.div
             className="project1"
